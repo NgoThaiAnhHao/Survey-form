@@ -1,4 +1,4 @@
-Survey Form Project
+# Survey Form Project
 
 Mô tả: Đây là một dự án biểu mẫu khảo sát (Survey Form) được xây dựng bằng HTML
 & CSS, dựa theo bài tập của freeCodeCamp.
@@ -10,7 +10,7 @@ duyệt.
 
 # Clone repository
 
-git clone https://github.com/NgoThaiAnhHap/survey-form.git
+git clone https://github.com/NgoThaiAnhHao/survey-form.git
 
 # Chuyển vào thư mục dự án
 
@@ -21,7 +21,7 @@ cd survey-form
 start index.html # Windows  
 open index.html # macOS
 
-Cấu trúc thư mục:
+#Cấu trúc thư mục:
 
 project-root/ │-- assets/ # Thư mục chứa hình ảnh, fonts, icons (nếu có) │--
 css/ # Thư mục chứa file CSS │-- index.html # File HTML chính │-- styles.css #
