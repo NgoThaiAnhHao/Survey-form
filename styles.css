@@ -1,0 +1,99 @@
+body {
+    background-image: url('fst.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(169, 154, 255, 0.5);
+    background-attachment: fixed;   /*Giữ background cố định khi cuộn*/
+    background-blend-mode: overlay; /*Pha màu*/
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+h1, p{
+    color: whitesmoke;
+    margin: auto;
+    text-align: center;
+}
+
+.head {
+    margin: 100px 0px 50px 0px;
+}
+
+form {
+    background-color:rgb(0, 0, 0);
+    color: whitesmoke;
+    max-width: 700px;
+    max-height: auto;
+    margin: auto;
+    padding: 40px 10px 50px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+input, select, textarea {
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.container label input, select, label, textarea {
+    display: block;
+} 
+
+.container label input, select, textarea{
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+    font-size: 17px;
+}
+
+
+input[type="checkbox"], input[type="radio"] {
+    min-height: 1.3em ;
+    min-width: 1.3em;
+}
+
+.checkbox label:nth-of-type(1) {
+    margin-top: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    min-height: 50px;
+    cursor: pointer;
+    background-color: rgb(3, 214, 66);
+    color: aliceblue;
+   transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
