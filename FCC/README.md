@@ -23,6 +23,7 @@ open index.html # macOS
 
 Cấu trúc thư mục:
 
-project-root/ │-- assets/ # Thư mục chứa hình ảnh, fonts, icons (nếu có) │--
+project-root/ │-- assets/ 
+# Thư mục chứa hình ảnh, fonts, icons (nếu có) │--
 css/ # Thư mục chứa file CSS │-- index.html # File HTML chính │-- styles.css #
 File CSS chính │-- README.md # Tệp hướng dẫn này
